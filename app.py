@@ -15,7 +15,7 @@ CORS(app, resources={r"/*": {"origins": ["http://localhost:3000", "https://asci.
 
 # Get the XAI API key from the environment variables
 XAI_API_KEY = os.getenv("XAI_API_KEY")
-
+# hi
 # Set a file size limit for uploads (16MB limit)
 app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024  # 16MB
 
